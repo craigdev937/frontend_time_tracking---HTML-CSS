@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 :root {
+    --white: hsl(100, 100%, 100%);
     --yellow-SELF-CARE: hsl(43, 85%, 65%);
     --orange-WORK: hsl(15, 100%, 70%);
     --red-STUDY: hsl(348, 100%, 68%);
@@ -17,21 +18,41 @@
     --font-500: 500;
 }
 
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background: steelblue;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
     font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    background: var(--navy);
 }
 
-.fw300 {
-    font-weight: var(--font-300);
+/* MAIN SECTION */
+
+/* JEREMY SECTION */
+.jeremy {
+    display: flex;
+    flex-direction: column;
 }
 
-.fw400 {
-    font-weight: var(--font-400);
+.jeremy__header {
+    background: var(--purple);
+    color: var(--white);
+    padding: 2rem;
+    border-radius: 20px;
 }
 
-.fw500 {
-    font-weight: var(--font-500);
+.jeremy__image {
+    height: 80px;
+    width: auto;
+    border: 5px solid white;
+    border-radius: 50px;
 }
 
 /* ATTRIBUTION FOOTER SECTION */
