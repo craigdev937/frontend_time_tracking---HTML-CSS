@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --yellow-SELF-CARE: hsl(43, 85%, 65%);
+    --orange-WORK: hsl(15, 100%, 70%);
+    --red-STUDY: hsl(348, 100%, 68%);
+    --green-EXERCISE: hsl(145, 58%, 55%);
+    --periwinkle: hsl(236, 100%, 87%);
+    --turquoise: hsl(195, 74%, 62%);
+    --violet-SOCIAL: hsl(265, 64%, 52%);
+    --lilac: hsl(235, 45%, 61%);
+    --purple: hsl(246, 80%, 60%);
+    --navy: hsl(235, 46%, 20%);
+    --cobolt: hsl(226, 43%, 10%);
+    --font-300: 300;
+    --font-400: 400;
+    --font-500: 500;
+}
+
+body {
+    background: steelblue;
+    font-family: "Rubik", sans-serif;
+}
+
+.fw300 {
+    font-weight: var(--font-300);
+}
+
+.fw400 {
+    font-weight: var(--font-400);
+}
+
+.fw500 {
+    font-weight: var(--font-500);
+}
+
+/* ATTRIBUTION FOOTER SECTION */
+.attribution {
+    padding-top: 1rem;
+    font-size: 11px;
+    text-align: center;
+    font-weight: var(--font-400);
+    color: var(--dark-charcoal);
+    bottom: 0;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+
+
