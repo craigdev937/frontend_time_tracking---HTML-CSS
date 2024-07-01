@@ -30,15 +30,25 @@ body {
     min-height: 100vh;
     font-family: "Rubik", sans-serif;
     font-size: 18px;
-    background: var(--navy);
+    background: var(--cobolt);
 }
 
 /* MAIN SECTION */
+main {
+    display: grid;
+    grid-template-columns: repeat(auto, 4);
+    grid-template-rows: 100%;
+    grid-template-areas: 
+        "jeremy work play study"
+        "jeremy exercise social self-care"
+    ;
+}
 
 /* JEREMY SECTION */
 .jeremy {
     display: flex;
     flex-direction: column;
+    background: var(--navy);
 }
 
 .jeremy__header {
@@ -54,6 +64,16 @@ body {
     border: 5px solid white;
     border-radius: 50px;
 }
+
+.jeremy__info {
+    background: var(--orange-WORK);
+}
+
+/* WORK SECTION */
+
+
+
+/* EXERCISE SECTION */
 
 /* ATTRIBUTION FOOTER SECTION */
 .attribution {
